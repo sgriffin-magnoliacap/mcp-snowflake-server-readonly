@@ -10,7 +10,7 @@
    uv build --no-sources
 
 To test locally (optional):
-uvx --from dist/mcp\_snowflake\_server\_readonly\_sysprompt-0.4.6-py3-none-any.whl --help
+uvx --from dist/mcp\_snowflake\_server\_readonly\_sysprompt-0.4.X-py3-none-any.whl --help
 
 4. Commit, tag, and push
    git add .
@@ -24,6 +24,10 @@ uvx --from dist/mcp\_snowflake\_server\_readonly\_sysprompt-0.4.6-py3-none-any.w
    Set title: v0.4.X
    Click "Publish release"
 
-6. Confirm it's live
+6. Check GitHub Actions for successful run
+
+7. Confirm it's live
    Run:
    uvx mcp\_snowflake\_server\_readonly\_sysprompt\@0.4.6 --help
+
+8. If Claude isn't updating the version automatically, clear the uv cache with Remove-Item -Recurse -Force "$env:LOCALAPPDATA\uv\cache\archive-v0"
