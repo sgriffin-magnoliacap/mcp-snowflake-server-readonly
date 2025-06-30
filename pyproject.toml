@@ -1,6 +1,6 @@
 [project]
-name = "mcp_snowflake_server_readonly_sysprompt"     # wheel / PyPI name
-version = "0.4.6"
+name = "mcp_snowflake_server_readonly"     # wheel / PyPI name
+version = "0.4.1"
 description = "A simple Snowflake MCP server"
 readme = "README.md"
 requires-python = ">=3.10,<3.13"
@@ -22,7 +22,7 @@ dev-dependencies = ["pyright>=1.1.389"]
 
 [project.scripts]
 # what users type → where it points
-mcp_snowflake_server_readonly_sysprompt = "mcp_snowflake_server:main"
+mcp_snowflake_server_readonly = "mcp_snowflake_server:main"
 
 [tool.hatch.build]
 sources = ["src"]
