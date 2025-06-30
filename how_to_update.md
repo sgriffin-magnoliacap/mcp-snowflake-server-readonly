@@ -19,9 +19,9 @@ uvx --from dist/mcp\_snowflake\_server\_readonly\_sysprompt-0.4.6-py3-none-any.w
    git push origin v0.4.X
 
 5. Publish the release
-   Go to [https://github.com/sgriffin-magnoliacap/mcp-snowflake-server-no-write-system-prompt/releases/new](https://github.com/sgriffin-magnoliacap/mcp-snowflake-server-no-write-system-prompt/releases/new)
-   Select tag v0.4.6
-   Set title: v0.4.6
+   Go to [https://github.com/sgriffin-magnoliacap/mcp-snowflake-server-readonly/releases/new](https://github.com/sgriffin-magnoliacap/mcp-snowflake-server-readonly/releases/new)
+   Select tag v0.4.X
+   Set title: v0.4.X
    Click "Publish release"
 
 6. Confirm it's live
