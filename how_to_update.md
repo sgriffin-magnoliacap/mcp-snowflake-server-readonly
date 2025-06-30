@@ -28,6 +28,6 @@ uvx --from dist/mcp\_snowflake\_server\_readonly\_sysprompt-0.4.X-py3-none-any.w
 
 7. Confirm it's live
    Run:
-   uvx mcp\_snowflake\_server\_readonly\_sysprompt\@0.4.6 --help
+   uvx mcp\_snowflake\_server\_readonly\_sysprompt\@0.4.X --help
 
 8. If Claude isn't updating the version automatically, clear the uv cache with Remove-Item -Recurse -Force "$env:LOCALAPPDATA\uv\cache\archive-v0"
