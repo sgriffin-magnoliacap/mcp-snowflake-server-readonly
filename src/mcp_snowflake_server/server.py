@@ -546,7 +546,7 @@ async def main(
             write_stream,
             InitializationOptions(
                 server_name="snowflake",
-                server_version=importlib.metadata.version("mcp_snowflake_server"),
+                server_version=importlib.metadata.version("mcp_snowflake_server_readonly"),
                 capabilities=server.get_capabilities(
                     notification_options=NotificationOptions(),
                     experimental_capabilities={},
